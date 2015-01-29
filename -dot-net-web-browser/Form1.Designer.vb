@@ -38,6 +38,7 @@ Partial Class Form1
         Me.Button11 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.StatusStrip1.SuspendLayout
         Me.SuspendLayout
         '
@@ -175,11 +176,21 @@ Partial Class Form1
         Me.TextBox2.TabIndex = 15
         Me.TextBox2.Visible = false
         '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(1050, 542)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.TabIndex = 16
+        Me.Button9.Text = "Clear history"
+        Me.Button9.UseVisualStyleBackColor = true
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1125, 564)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button11)
@@ -220,4 +231,5 @@ End Sub
     Friend WithEvents Button11 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button9 As Button
 End Class

@@ -93,4 +93,8 @@ Public Class Form1
         TextBox1.Text = ListBox1.Text
         Button5_Click(sender, e)
     End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click 'enables clearing of listbox history, because everyone has their secrerts...
+        ListBox1.Items.Clear()
+    End Sub
 End Class
