@@ -88,12 +88,10 @@ Public Class Form1
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click 'show page information
         WebBrowser1.ShowPropertiesDialog()
     End Sub
-
     Private Sub ListBox1_DoubleClicked(sender As Object, e As EventArgs) Handles ListBox1.DoubleClick 'when history box is double clicked copy clicked value to URL bar then press go
         TextBox1.Text = ListBox1.Text
         Button5_Click(sender, e)
     End Sub
-
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click 'enables clearing of listbox history, because everyone has their secrerts...
         ListBox1.Items.Clear()
     End Sub
